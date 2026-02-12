@@ -35,7 +35,7 @@ export function getWeatherAdvice(temperature, isRaining) {
     else{return "Perfect hiking weather - enjoy the trails"}
   }
   else if(temperature>=5){
-    if(isRaining){return "old and wet - best to stay indoors" }
+    if(isRaining){return "cold and wet - best to stay indoors" }
     else{return "Chilly - wear layers for your hike"}
   }
   else{
