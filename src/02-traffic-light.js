@@ -22,7 +22,7 @@
  * @returns {string} The driving action to take
  */
 export function getTrafficAction(color) {
-  if(color.trim() == ""){return ""}
+
   let color_1 = color.trim().toLowerCase()
   switch(color_1){
   case "green":
