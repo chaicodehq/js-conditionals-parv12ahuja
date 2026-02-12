@@ -42,4 +42,4 @@ export function getWeatherAdvice(temperature, isRaining) {
     return "Too cold - stay warm indoors"
   }
   }
-}
+
