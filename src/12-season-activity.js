@@ -31,5 +31,21 @@
  * @returns {{ season: string, activity: string } | null}
  */
 export function getSeasonActivity(month, temperature) {
+  if(!Number.isInteger(month)||month<=0||month>12||!Number.isInteger(temperature)){return null}
+  let current_season ;
+  if(month>2 && month <6){
+    current_season = "Spring"
+  }
+  else if(month>5 && month<9){
+    current_season ="Summer"
+  }
+  else if(month>8 && month<12){
+    current_season = "Autumn"
+  }
+  else{
+    current_season = "Winter"
+  }
+
   // Your code here
+  if()
 }
